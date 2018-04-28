@@ -8,11 +8,11 @@ together with the defined minimum and maximum allowable values for each type, us
 
 ## What's the point of using `uint8_t`, `uint32_t`, `int32_t`, and `uint16_t` in a program?
 
-TODO
+`uint8_t` is the same as a byte. its shorthand for: a type of unsigned integer of length 8 bits
 
 ## How many bytes is a `BYTE`, a `DWORD`, a `LONG`, and a `WORD`, respectively?
 
-TODO
+There is 1 btye in a byte. There are 32 bytes in a DWORD(Couble word). There are 8 bytes in a long. A word can hold different numbers of bytes(8, 16, 32,64).
 
 ## What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be? Leading bytes used to identify file formats (with high probability) are generally called "magic numbers."
 
