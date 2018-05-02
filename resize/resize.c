@@ -12,6 +12,15 @@
 
 // Copies a BMP file
 
+//Steps:
+//Open file
+//Update outfile's header info
+//read infile's scanline, pixel by pixel
+//resize horizontally
+//remember padding
+//resize vertically
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
